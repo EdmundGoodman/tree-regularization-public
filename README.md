@@ -9,7 +9,8 @@ For more on NumPy Autograd, see https://github.com/HIPS/autograd.
 Create a new conda environment and activate it.
 
 ```
-conda create -n interpret python=2
+# For running on MacOS https://stackoverflow.com/a/67569068
+CONDA_SUBDIR=osx-64 conda create -n interpret python=2
 source activate interpret
 ```
 
