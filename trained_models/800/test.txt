@@ -1,0 +1,11 @@
+python test.py
+/opt/homebrew/Caskroom/miniconda/base/envs/interpret/lib/python2.7/site-packages/autograd/core.py:120: UserWarning:
+------------------------------
+    defgrad is deprecated!
+------------------------------
+Use defvjp instead ("define vector-Jacobian product").
+The interface is a little different - look at
+autograd/numpy/numpy_grads.py for examples.
+
+  warnings.warn(defgrad_deprecated)
+Test AUC: 0.72
