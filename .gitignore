@@ -103,4 +103,4 @@ ENV/
 **.pdf
 **.pyc
 data/
-trained_models/
+trained_models/bak/

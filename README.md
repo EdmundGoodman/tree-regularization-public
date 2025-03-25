@@ -25,7 +25,7 @@ pip install -r requirements.txt
 First, generate the toy dataset. This will create a directory `./data` and populate it with Pickle files.
 
 ```
-python dataset.py
+python datasets.py
 ```
 
 Then, you can train the tree-regularized GRU. This will create a directory `./trained_models` and dump the trained model and a PDF of the final decision tree. You can set the regularization strength as a command line argument. `apl` stands for average path length.
